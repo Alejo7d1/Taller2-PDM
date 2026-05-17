@@ -56,33 +56,33 @@ class RestaurantRepositoryImpl : RestaurantRepository {
         ),
         Restaurant(
             id = 5,
-            name = "Pasta House",
+            name = "Parlottini",
             description = "Tradición italiana en cada plato de pasta fresca hecha a mano.",
-            imageUrl = "https://picsum.photos/seed/pasta/400/300",
+            imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2y03p-XRpiB-NDeS1Je-cYXoslJs9pSmWW99IlhQaKIOCYEtcGxDc0Ls&s=10",
             categories = listOf("Italiana"),
             menu = listOf(
-                Dish(9, "Lasagna Tradicional", "Capas de carne boloñesa y bechamel cremosa.", "https://picsum.photos/seed/lasagna/400/300"),
-                Dish(10, "Fettuccine Alfredo", "Pasta larga bañada en salsa de crema y parmesano.", "https://picsum.photos/seed/alfredo/400/300"),
-                Dish(105, "Gnocchi al Pesto", "Suaves ñoquis de papa con albahaca y piñones.", "https://picsum.photos/seed/gnocchi/400/300")
+                Dish(9, "Lasagna Tradicional", "Capas de carne boloñesa y bechamel cremosa.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZvdyc8rlf8d-yfp-4LpkZ1lw0YQDg6NcOu-BENNKgc-v3PsmVLAW5CRWE&s=10"),
+                Dish(10, "Fettuccine Alfredo", "Pasta larga bañada en salsa de crema y parmesano.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMjfCcRWWZzoQTerIlVDuz8Na0q6ZFggPJEccpak0uTg&s=10"),
+                Dish(105, "Gnocchi al Pesto", "Suaves ñoquis de papa con albahaca y piñones.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqlCdarSxyYZv6_Pj0ehDY430jwH78C7Va4blf0hHCiw&s=10")
             )
         ),
         Restaurant(
             id = 6,
-            name = "Wok & Roll",
+            name = "Woki & Rolli",
             description = "Fusión de sabores orientales cocinados al fuego del wok.",
-            imageUrl = "https://picsum.photos/seed/wok/400/300",
+            imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg8UaHDJq6Sm0XTuG5N2KzjBeBwsDv14y67MRyjGOcMg&s=10",
             categories = listOf("Asiática"),
             menu = listOf(
-                Dish(11, "Pad Thai", "Fideos de arroz salteados con camarones y maní.", "https://picsum.photos/seed/padthai/400/300"),
-                Dish(12, "Ramen Tonkotsu", "Caldo denso de cerdo con fideos y huevo marinado.", "https://picsum.photos/seed/ramen/400/300"),
-                Dish(106, "Arroz Chaufa", "Arroz frito al estilo nikkei con pollo y cebollín.", "https://picsum.photos/seed/fried_rice/400/300")
+                Dish(11, "Pad Thai", "Fideos de arroz salteados con camarones y maní.", "https://cdn7.kiwilimon.com/brightcove/10023/640x640/10023.jpg.webp"),
+                Dish(12, "Ramen Tonkotsu", "Caldo denso de cerdo con fideos y huevo marinado.", "https://cdn7.kiwilimon.com/brightcove/10023/640x640/10023.jpg.webp"),
+                Dish(106, "Arroz Chaufa", "Arroz frito al estilo nikkei con pollo y cebollín.", "https://cdn7.kiwilimon.com/brightcove/10023/640x640/10023.jpg.webp")
             )
         ),
         Restaurant(
             id = 7,
             name = "Veggie Delight",
             description = "Innovación vegetariana con productos locales y de temporada.",
-            imageUrl = "https://picsum.photos/seed/veggie/400/300",
+            imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGiapsIsLEM6zFAVQaWyEpTqkzg5JQ8ozmVjbgaacxOEagZzot1Y-rK4s&s=10",
             categories = listOf("Saludable"),
             menu = listOf(
                 Dish(13, "Bowl de Quinoa", "Mix de vegetales asados y vinagreta de limón.", "https://picsum.photos/seed/quinoa/400/300"),
@@ -94,50 +94,51 @@ class RestaurantRepositoryImpl : RestaurantRepository {
             id = 8,
             name = "Taco Fiesta",
             description = "El verdadero sabor de México en una experiencia de comida rápida.",
-            imageUrl = "https://picsum.photos/seed/taco/400/300",
+            imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDssbQdJGYt6T8gtM0Ympcrz3C9UG55EBL9mn1VIjweMaZQc2B4ZvLa5Y&s=10",
             categories = listOf("Comida Rápida"),
             menu = listOf(
-                Dish(15, "Tacos al Pastor", "Cerdo marinado con especias y piña asada.", "https://picsum.photos/seed/pastor/400/300"),
-                Dish(16, "Burrito Supremo", "Tortilla gigante con frijoles, carne y guacamole.", "https://picsum.photos/seed/burrito/400/300"),
-                Dish(108, "Enchiladas Verdes", "Tortillas rellenas de pollo con salsa de tomatillo.", "https://picsum.photos/seed/enchiladas/400/300")
+                Dish(15, "Tacos al Pastor", "Cerdo marinado con especias y piña asada.", "https://www.thecookierookie.com/wp-content/uploads/2024/05/street-tacos-recipe-2.jpg"),
+                Dish(16, "Burrito Supremo", "Tortilla gigante con frijoles, carne y guacamole.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpxWNlQVMYZgcgp7VsFXougRXc1H9Kw6u3aUvPgi5_Pah8hm7QaZRfwHw&s=10"),
+                Dish(108, "Enchiladas Verdes", "Tortillas rellenas de pollo con salsa de tomatillo.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpxWNlQVMYZgcgp7VsFXougRXc1H9Kw6u3aUvPgi5_Pah8hm7QaZRfwHw&s=10")
             )
         ),
         Restaurant(
             id = 9,
-            name = "Osteria Romana",
+            name = "Cesar Romanof",
             description = "Un rincón de Roma con el sabor auténtico de la carbonara original.",
-            imageUrl = "https://picsum.photos/seed/osteria/400/300",
+            imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeBaVjMQUQXRq2cZe55uWejfFBKNwjuYwGI_ESO9vNI2lvLNXhD9fLfjEe&s=10",
             categories = listOf("Italiana"),
             menu = listOf(
-                Dish(17, "Pasta Carbonara", "Receta clásica con guanciale, huevo y pecorino.", "https://picsum.photos/seed/carbonara/400/300"),
-                Dish(18, "Tiramisú Casero", "Mascarpone, café espresso y bizcochos de Soletilla.", "https://picsum.photos/seed/tiramisu/400/300"),
-                Dish(109, "Saltimbocca", "Ternera con jamón serrano y salvia al vino blanco.", "https://picsum.photos/seed/saltimbocca/400/300")
+                Dish(17, "Pasta Carbonara", "Receta clásica con guanciale, huevo y pecorino.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpraHpL41Vo0icW2FSmqXV3k6FeeUrN8ZlwUAFW5jkQpI0i2BpTE-_ixuP&s=10"),
+                Dish(18, "Tiramisú Casero", "Mascarpone, café espresso y bizcochos de Soletilla.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpraHpL41Vo0icW2FSmqXV3k6FeeUrN8ZlwUAFW5jkQpI0i2BpTE-_ixuP&s=10"),
+                Dish(109, "Saltimbocca", "Ternera con jamón serrano y salvia al vino blanco.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpraHpL41Vo0icW2FSmqXV3k6FeeUrN8ZlwUAFW5jkQpI0i2BpTE-_ixuP&s=10")
             )
         ),
         Restaurant(
             id = 10,
             name = "Zen Garden",
             description = "Equilibrio y sabor en platos asiáticos balanceados.",
-            imageUrl = "https://picsum.photos/seed/zen/400/300",
+            imageUrl = "https://cdn.shopify.com/s/files/1/0558/6413/1764/files/10_Tips_To_Create_A_Good_Asian_Food_Logo_Design_13_1024x1024.png?v=1664427994",
             categories = listOf("Asiática", "Saludable"),
             menu = listOf(
-                Dish(19, "Sopa Miso", "Caldo dashi con tofu, algas wakame y cebollino.", "https://picsum.photos/seed/miso/400/300"),
-                Dish(20, "Poke de Atún", "Atún marinado, edamame y pepino sobre arroz.", "https://picsum.photos/seed/poke/400/300"),
-                Dish(110, "Tofu Teriyaki", "Dados de tofu fritos con salsa dulce de soja.", "https://picsum.photos/seed/tofu/400/300")
+                Dish(19, "Sopa Miso", "Caldo dashi con tofu, algas wakame y cebollino.", "https://bffasiangrill.com/wp-content/uploads/2019/12/pho-recipe.jpg"),
+                Dish(20, "Poke de Atún", "Atún marinado, edamame y pepino sobre arroz.", "https://bffasiangrill.com/wp-content/uploads/2019/12/pho-recipe.jpg"),
+                Dish(110, "Tofu Teriyaki", "Dados de tofu fritos con salsa dulce de soja.", "https://bffasiangrill.com/wp-content/uploads/2019/12/pho-recipe.jpg")
             )
         ),
         Restaurant(
             id = 11,
-            name = "Fit Fuel",
-            description = "El combustible perfecto para un estilo de vida activo.",
-            imageUrl = "https://picsum.photos/seed/fit/400/300",
-            categories = listOf("Saludable"),
+            name = "Bamboo Wok",
+            description = "Sabores del este: wok al momento, noodles y platos tradicionales asiáticos con toque moderno.",
+            imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuu1_qu5PwVMfO-KIdmOrEEYpI5l13MkMNLFBQBfBUG_pZP0cLWPuQJrw&s=10",
+            categories = listOf("Asiática"),
             menu = listOf(
-                Dish(21, "Pollo al Grill", "Pechuga marinada con batata asada y brócoli.", "https://picsum.photos/seed/grill/400/300"),
-                Dish(22, "Omelette Fitness", "Claras de huevo con espinaca y pechuga de pavo.", "https://picsum.photos/seed/omelette/400/300"),
-                Dish(111, "Açaí Bowl", "Sorbet de açaí con granola artesanal y frutas.", "https://picsum.photos/seed/acai/400/300")
+                Dish(21, "Pollo Teriyaki", "Tiras de pollo glaseadas en salsa teriyaki, servidas con arroz jazmín.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHYfpdJz4t9QttpQs4yV9WxS0e6HycHxoZhpjCI6msxsoOe-l6iY7tTKuK&s=10"),
+                Dish(22, "Pad Thai", "Fideos de arroz salteados con camarón, tofu, cacahuate y brotes de soja.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4x6I6UOdGhTdq0PxU6V1U8gTPPu-zli86hgpriGADMar3msWveeQ6X4U&s=10"),
+                Dish(111, "Mango Sticky Rice", "Arroz glutinoso con leche de coco y mango fresco, postre tradicional tailandés.", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2zaVKTOZ0tsMrkjiZqnZ2fiPomioulp2PiI9NDI6WpLx1zJS-q4_zcn4&s=10")
             )
         )
+
     )
 
     override fun getRestaurants(): List<Restaurant> = restaurants

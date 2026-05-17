@@ -17,11 +17,6 @@ class RestaurantSearchViewModel(
     private val _results = MutableStateFlow<List<Restaurant>>(emptyList())
     val results: StateFlow<List<Restaurant>> = _results.asStateFlow()
 
-    /**
-     * Actualiza la query y recalcula los resultados.
-     * La búsqueda es case-insensitive y busca por nombre de restaurante
-     * o por nombre de algún platillo en su menú.
-     */
     fun onQueryChanged(newQuery: String) {
         _query.value = newQuery
         val q = newQuery.trim()
