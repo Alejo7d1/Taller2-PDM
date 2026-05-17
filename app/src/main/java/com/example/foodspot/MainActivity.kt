@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     NavDisplay(
                         backStack = backStack,
-                        modifier = Modifier.padding(innerPadding),
+                        modifier = Modifier, // Remove padding to allow edge-to-edge in screens
                         onBack = { 
                             if (backStack.size > 1) backStack.removeAt(backStack.size - 1) 
                         },
